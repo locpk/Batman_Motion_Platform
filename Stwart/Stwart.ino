@@ -64,6 +64,7 @@ void setup()
 	servos[3].init(9, SERVO_TRIMS[3]);
 	servos[4].init(10, SERVO_TRIMS[4]);
 	servos[5].init(11, SERVO_TRIMS[5]);
+	delay(5000);
 }
 
 
