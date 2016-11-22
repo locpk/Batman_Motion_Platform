@@ -5,7 +5,7 @@
 
 
 /*CONSTANTS*/
-const int SERVO_TRIMS[6] = { 7,-9,7,0,0,-9 };
+const int SERVO_TRIMS[6] = { 7,0,7,0,7,0 };
 
 /*VERIABLES*/
 SServoClass servos[6];
@@ -71,7 +71,6 @@ void setup()
 void loop()
 {
 
-	
 	if (millis() >= currStateTimer)
 	{
 
